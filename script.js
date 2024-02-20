@@ -4,11 +4,27 @@ createApp({
     data() {
         return {
             tasks: [
-                "Passeggiata nella natura",
-                "Visita un museo",
-                "Serata di giochi da tavolo",
-                "Cucinare un nuovo piatto",
-                "Leggere un libro avvincente",
+                {
+                    text: "Passeggiata nella natura",
+                    done: true,
+                },
+                {
+                    text: "Visita un museo",
+                    done: true,
+                },
+                {
+                    text: "Serata di giochi da tavolo",
+                    done: false,
+                },
+                {
+                    text: "Cucinare un nuovo piatto",
+                    done: false,
+                },
+                {
+                    text: "Leggere un libro avvincente",
+                    done: true,
+                },
+                
             ]
         }
     },
